@@ -40,8 +40,6 @@ DEEPSEEK_BASE_URL=https://api.deepseek.com
 DEEPSEEK_MODEL=deepseek-v4-flash
 ```
 
-如果没有设置环境变量，后端会尝试从项目根目录的 `LLM信息.txt` 解析 `api_key`、`base_url` 和 `model`。
-本项目仍使用 `openai` npm 包作为兼容 SDK，实际请求地址与模型已经切换为 DeepSeek。
 
 ## 课堂使用建议
 
